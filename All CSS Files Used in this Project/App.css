@@ -1,11 +1,12 @@
-button:active{
+  
+button:active {
   opacity: 0.5;
 }
 
-button:focus{
+button:focus {
   outline: 0;
 }
 
-img:active{
+img:active {
   opacity: 0.5;
 }
