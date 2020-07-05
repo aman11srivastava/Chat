@@ -38,6 +38,7 @@ export default class Signup extends Component {
                     email,
                     password,
                     URL: '',
+                    Description: "",
                     messages: [{notificationId: '', number: 0}]
                 }).then((docRef) =>{
                     localStorage.setItem(LoginString.ID, result.user.id);
