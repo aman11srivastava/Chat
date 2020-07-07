@@ -34,7 +34,7 @@
     justify-content: center;
 }
 
-.Logout {
+.logout {
     width: 90px;
     height: 40px;
     position: absolute;
@@ -47,7 +47,7 @@
     box-shadow: 0 5px 5px #808888;
 }
 
-.ProfilePicture {
+.profilePicture {
     width: 45px;
     height: 45px;
     /* background-image: url(../../images/nopic.jpg); */
@@ -112,7 +112,7 @@
     border-radius: 4px;
     cursor: pointer;
 }
-.notificationpragraph{
+.notificationparagraph{
     right:0;
     bottom:0;
 }

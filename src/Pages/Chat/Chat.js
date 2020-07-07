@@ -75,7 +75,7 @@ export default class Chat extends Component {
         let className = ""
         let check = false
         if (this.state.currentPeerUser && this.state.currentPeerUser.id === itemId){
-            className = 'viewWrappedItemFocused'
+            className = 'viewWrapItemFocused'
         }
         else {
             this.state.displayedContactSwitchedNotification.forEach((item ) => {
@@ -115,7 +115,7 @@ export default class Chat extends Component {
                             }} 
                         >
                             <img
-                                className="viewAvatarItems"
+                                className="viewAvatarItem"
                                 src={item.URL}
                                 alt=""                                
                             />
